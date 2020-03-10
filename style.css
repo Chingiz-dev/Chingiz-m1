@@ -136,12 +136,22 @@ p {
 .coins-averse-big {
     height: 400px;
 }
+
 .coins-reverse-big {
     height: 400px;
+    display: none;
+}
+
+.coins-big:hover {
+    display: block;
+}
+
+.coins-big:hover .coins-reverse-big {
+    display: block;
 }
 
 .coins-big {
-    height: 720px;
+    height: 400px;
 }
 
 .coins-text {
