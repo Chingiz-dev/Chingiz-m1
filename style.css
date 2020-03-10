@@ -122,11 +122,12 @@ p {
 
 .coins-main {
     background-color: white;
-    min-width: 600px;
+    min-width: 700px;
     max-width: 900px;
     height: 800px;
     display: flex;
     flex-direction: row;
+    margin: auto;
 }
 
 .big-picture  {
@@ -152,10 +153,13 @@ p {
 }
 
 .coins-big {
+    width: 50%;
+    min-width: 400px;
     height: 400px;
 }
 
 .coins-text {
+    width: 50%;
     margin-top: 20px;
     background-color: whitesmoke;
     height: 650px;
