@@ -122,6 +122,8 @@ p {
 
 .coins-main {
     background-color: white;
+    min-width: 600px;
+    max-width: 900px;
     height: 800px;
     display: flex;
     flex-direction: row;
@@ -156,10 +158,6 @@ p {
 .coins-text {
     margin-top: 20px;
     background-color: whitesmoke;
-    min-width: 600px;
-    max-width: 900px;
-    display: flex;
-    flex-direction: row;
     height: 650px;
     padding: 50px;
 }
