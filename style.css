@@ -200,3 +200,7 @@ td {
     font-weight: bold;
     color: black;
 }
+
+.plus-underline {
+    text-decoration: underline blue;
+}
