@@ -1,13 +1,11 @@
 body {
     position: relative;
-    background: #E5E5E5;
-    padding: 20px;
     font-family: sans-serif;
 }
 
 main {
     position: relative;
-    min-width: 720px;
+    min-width: 620px;
     max-width: 1600px;
     background: #FFFFFF;
     padding-left: 102px;
@@ -15,7 +13,9 @@ main {
 }
 
 header {
-    width: 700px;
+    padding-left: 10px;
+    min-width: 500px;
+    max-width: 900px;
     height: 50px;
     margin-left: 22px;
 }
@@ -73,7 +73,7 @@ img {
     border-radius: 100%;
     position: absolute;
     line-height: 35px;
-    background-color: blue;
+    background-color:#833AE0;
     color: white;
     font-size: 12px;
     font-family: sans-serif;
