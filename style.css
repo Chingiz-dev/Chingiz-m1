@@ -156,7 +156,10 @@ p {
 .coins-text {
     margin-top: 20px;
     background-color: whitesmoke;
-    width: 440px;
+    min-width: 600px;
+    max-width: 900px;
+    display: flex;
+    flex-direction: row;
     height: 650px;
     padding: 50px;
 }
@@ -203,4 +206,8 @@ td {
 
 .plus-underline {
     text-decoration: underline blue;
+}
+
+.articul-color {
+    color: grey;
 }
