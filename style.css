@@ -29,14 +29,14 @@ h1 {
     color: #000000;
 }
 
-section {
+.container {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: flex-start;
 }
 
-article {
+section {
     width: 50%;
     min-width: 550px;
     margin-bottom: 5px;
