@@ -16,7 +16,6 @@ header {
     padding-left: 10px;
     min-width: 500px;
     max-width: 900px;
-    height: 50px;
     margin-left: 22px;
 }
 
@@ -92,10 +91,11 @@ a   {
     color: #833AE0;
     text-decoration: none;
 }
+
 p {
     font-family: Roboto;
     font-style: normal;
-    font-weight: bold;
+    font-weight: 400;
     font-size: 12px;
     line-height: 15px;
 }
