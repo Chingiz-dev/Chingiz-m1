@@ -75,11 +75,11 @@ img {
     background-color:#833AE0;
     color: white;
     font-size: 12px;
-    font-family: sans-serif;
     width: 35px;
     height: 35px;
     top: 25px;
     left: 110px;
+    font-weight: 800;
 }
 
 a   {    
