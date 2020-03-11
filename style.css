@@ -34,7 +34,7 @@ h1 {
     justify-content: flex-start;
 }
 
-section {
+.psevdo-section {
     width: 50%;
     min-width: 550px;
     margin-bottom: 5px;
