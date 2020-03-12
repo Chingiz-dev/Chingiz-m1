@@ -8,7 +8,7 @@ main {
     position: relative;
     background: #FFFFFF;
     padding-left: 82px;
-    padding-top: 39px;
+    padding-top: 25px;
 }
 
 header {
@@ -160,7 +160,7 @@ p {
     height: 600px;
     margin-top: 50px;
     background-color: whitesmoke;
-    padding: 10px 50px 20px 50px;
+    padding: 0px 50px 20px 50px;
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -221,4 +221,9 @@ td {
     list-style-type: none;
     padding-inline-start: 0px;
     font-size: 14px;
+}
+
+.coins-h1 {
+    margin: 20px 0px;
+    min-width: 370px;
 }
