@@ -5,8 +5,8 @@ body {
 
 main {
     position: relative;
-    min-width: 620px;
-    max-width: 1600px;
+    margin: 0, auto;
+    width: 90%;
     background: #FFFFFF;
     padding-left: 82px;
     padding-top: 39px;
@@ -20,7 +20,6 @@ header {
 }
 
 h1 {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 300;
     font-size: 42px;
@@ -83,7 +82,6 @@ img {
 }
 
 a   {    
-    font-family: Roboto;
     line-height: 2px;
     font-style: normal;
     font-weight: bold;
@@ -93,7 +91,6 @@ a   {
 }
 
 p {
-    font-family: Roboto;
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
@@ -102,7 +99,6 @@ p {
 
 
 .coin-price-bold {
-    font-family: Roboto;
     line-height: 3px;
     font-style: normal;
     font-weight: bold;
@@ -112,7 +108,6 @@ p {
 }
 
 .coin-price-narrow {    
-    font-family: Roboto;
     color: grey;
     line-height: 1px;
     font-style: normal;
@@ -144,8 +139,8 @@ p {
     display: none;
 }
 
-.coins-big:hover {
-    display: block;
+.coins-big:hover .coins-averse-big{
+    display: none;
 }
 
 .coins-big:hover .coins-reverse-big {
@@ -213,4 +208,9 @@ td {
 
 .articul-color {
     color: grey;
+}
+
+.ul-style {
+    list-style-type: none;
+    padding-inline-start: 0px;
 }
