@@ -224,6 +224,7 @@ td {
 }
 
 .coins-h1 {
+    font-weight: 800;
     margin: 20px 0px;
     min-width: 370px;
 }
