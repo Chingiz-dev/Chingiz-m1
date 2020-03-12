@@ -24,7 +24,7 @@ h1 {
 }
 
 .container {
-    margin: 0, auto;
+    margin: 0 auto;
     width: 90%;
     display: flex;
     flex-direction: row;
@@ -219,8 +219,8 @@ td {
 
 .ul-style {
     list-style-type: none;
-    padding-inline-start: 0px;
     font-size: 14px;
+    padding: 0;
 }
 
 .coins-h1 {
