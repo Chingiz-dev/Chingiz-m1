@@ -5,6 +5,7 @@ body {
 }
 
 main {
+    margin: auto;
     position: relative;
     background: #FFFFFF;
     padding-left: 82px;
