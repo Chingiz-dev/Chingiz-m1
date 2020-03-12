@@ -1,6 +1,7 @@
 body {
     position: relative;
     font-family: 'Roboto', sans-serif;
+    margin: 0px;
 }
 
 main {
@@ -121,10 +122,10 @@ p {
     background-color: white;
     min-width: 850px;
     max-width: 1050px;
-    height: 800px;
     display: flex;
     flex-direction: row;
-    margin: auto;
+    margin-right: auto;
+    margin-left: auto;
 }
 
 .big-picture  {
@@ -156,17 +157,19 @@ p {
 
 .coins-text {
     width: 50%;
-    height: 550px;
-    margin-top: 20px;
+    height: 600px;
+    margin-top: 50px;
     background-color: whitesmoke;
-    padding: 50px;
+    padding: 10px 50px 20px 50px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
 }
 
 table {
     width: 100%;
     background-color: white;
     margin-top: 30px;
-    margin-bottom: 100px;
     border-collapse: collapse;
     border: 0px;
     font-size: 12px;
@@ -179,6 +182,8 @@ tr:nth-child(2n) {
 .back-page-font {
     font-size: 16px;
     font-family: sans-serif;
+    margin-bottom: 25px;
+    line-height: 20px;
 }
 
 
